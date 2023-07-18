@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arabic Alphabet</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Alphabet.css">
+</head>
+<body>
+  <table>
+    <tr>
+      <th>Letter</th>
+      <th>Name</th>
+      <th>Makhraj</th>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ا')">ا</button></td>
+      <td>Alif</td>
+      <td id="makhraj-display1"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ب')">ب</button></td>
+      <td>Ba</td>
+      <td id="makhraj-display2"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ت')">ت</button></td>
+      <td>Ta</td>
+      <td id="makhraj-display3"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ث')">ث</button></td>
+      <td>Sa</td>
+      <td id="makhraj-display4"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ج')">ج</button></td>
+      <td>Jim</td>
+      <td id="makhraj-display5"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ح')">ح</button></td>
+      <td>Ha</td>
+      <td id="makhraj-display6"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('خ')">خ</button></td>
+      <td>Kha</td>
+      <td id="makhraj-display7"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('د')">د</button></td>
+      <td>Dal</td>
+      <td id="makhraj-display8"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ذ')">ذ</button></td>
+      <td>Zaal</td>
+      <td id="makhraj-display9"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ر')">ر</button></td>
+      <td>Ra</td>
+      <td id="makhraj-display10"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ز')">ز</button></td>
+      <td>Za</td>
+      <td id="makhraj-display11"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('س')">س</button></td>
+      <td>Seen</td>
+      <td id="makhraj-display12"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ش')">ش</button></td>
+      <td>Sheen</td>
+      <td id="makhraj-display13"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ص')">ص</button></td>
+      <td>Suad</td>
+      <td id="makhraj-display14"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ض')">ض</button></td>
+      <td>Zuad</td>
+      <td id="makhraj-display15"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ط')">ط</button></td>
+      <td>Ta</td>
+      <td id="makhraj-display16"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ظ')">ظ</button></td>
+      <td>Za</td>
+      <td id="makhraj-display17"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ع')">ع</button></td>
+      <td>Ain</td>
+      <td id="makhraj-display18"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('غ')">غ</button></td>
+      <td>Ghain</td>
+      <td id="makhraj-display19"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ف')">ف</button></td>
+      <td>Fa</td>
+      <td id="makhraj-display20"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ق')">ق</button></td>
+      <td>Qaf</td>
+      <td id="makhraj-display21"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ك')">ك</button></td>
+      <td>Kaf</td>
+      <td id="makhraj-display22"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ل')">ل</button></td>
+      <td>Lam</td>
+      <td id="makhraj-display23"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('م')">م</button></td>
+      <td>Meem</td>
+      <td id="makhraj-display24"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ن')">ن</button></td>
+      <td>Noon</td>
+      <td id="makhraj-display25"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ه')">ه</button></td>
+      <td>Ha</td>
+      <td id="makhraj-display26"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('و')">و</button></td>
+      <td>Waw</td>
+      <td id="makhraj-display27"></td>
+    </tr>
+    <tr>
+      <td><button class="letter-button" onclick="showMakhraj('ي')">ي</button></td>
+      <td>Ya</td>
+      <td id="makhraj-display28"></td>
+    </tr>
+  </table>
+
+  <script>
+    function showMakhraj(letter) {
+      var makhrajDisplay = document.getElementById("makhraj-display" + getLetterIndex(letter));
+      makhrajDisplay.innerText = getMakhraj(letter);
+    }
+
+    function getLetterIndex(letter) {
+      var letterIndices = {
+        'ا': 1,
+        'ب': 2,
+        'ت': 3,
+        'ث': 4,
+        'ج': 5,
+        'ح': 6,
+        'خ': 7,
+        'د': 8,
+        'ذ': 9,
+        'ر': 10,
+        'ز': 11,
+        'س': 12,
+        'ش': 13,
+        'ص': 14,
+        'ض': 15,
+        'ط': 16,
+        'ظ': 17,
+        'ع': 18,
+        'غ': 19,
+        'ف': 20,
+        'ق': 21,
+        'ك': 22,
+        'ل': 23,
+        'م': 24,
+        'ن': 25,
+        'ه': 26,
+        'و': 27,
+        'ي': 28
+      };
+
+      return letterIndices[letter];
+    }
+
+    function getMakhraj(letter) {
+      switch (letter) {
+        case 'ا':
+          return 'Al-Jawf (The Throat)';
+        case 'ب':
+          return 'Al-Shafatain (The Lips)';
+        case 'ت':
+          return 'Al-Tawlid (The Tip of the Tongue)';
+        case 'ث':
+          return 'Al-Tawlid (The Tip of the Tongue)';
+        case 'ج':
+          return 'Al-Jawf (The Throat)';
+        case 'ح':
+          return 'Al-Halq (The Throat)';
+        case 'خ':
+          return 'Al-Khayshum (The Palate)';
+        case 'د':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ذ':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ر':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ز':
+          return 'Al-Lisaan (The Tongue)';
+        case 'س':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ش':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ص':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ض':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ط':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ظ':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ع':
+          return 'Al-Lisaan (The Tongue)';
+        case 'غ':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ف':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ق':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ك':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ل':
+          return 'Al-Lisaan (The Tongue)';
+        case 'م':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ن':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ه':
+          return 'Al-Lisaan (The Tongue)';
+        case 'و':
+          return 'Al-Lisaan (The Tongue)';
+        case 'ي':
+          return 'Al-Lisaan (The Tongue)';
+        default:
+          return 'Unknown Makhraj';
+      }
+    }
+  </script>
+</body>
+</html>
